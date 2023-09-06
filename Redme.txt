@@ -1,0 +1,21 @@
+Le jeu de données MNIST (Modified National Institute of Standards and Technology database) est effectivement l'un des jeux de données les plus populaires dans le domaine de l'apprentissage machine, en particulier pour les tâches de classification d'images. Il est souvent utilisé pour valider des algorithmes de classification d'images, des réseaux de neurones, ou d'autres méthodes en apprentissage machine et en vision par ordinateur.
+
+### Structure du jeu de données MNIST:
+
+Chaque image du jeu de données MNIST est de 28x28 pixels. Dans le format CSV, chaque ligne représente une image. La première colonne contient l'étiquette de l'image (le chiffre réel que l'image représente), et les 784 colonnes suivantes (28x28) contiennent les valeurs des pixels de l'image. Ces valeurs sont comprises entre 0 (blanc) et 255 (noir).
+
+### Approches courantes pour résoudre le problème MNIST:
+
+1. **Réseaux de Neurones Artificiels (ANN)**: Les réseaux neuronaux à une ou plusieurs couches cachées peuvent être utilisés.
+
+2. **Réseaux de Neurones Convolutifs (CNN)**: Ils sont particulièrement puissants pour les tâches liées à l'image.
+
+3. **SVM, KNN, Random Forests**: Des algorithmes de machine learning plus traditionnels peuvent également être utilisés, bien qu'ils puissent ne pas être aussi efficaces que les CNN.
+
+4. **Techniques de réduction de la dimensionnalité**: Des méthodes comme PCA ou t-SNE peuvent être utilisées pour réduire la dimensionnalité des données avant de les soumettre à des algorithmes de machine learning.
+
+### Métriques d'évaluation:
+
+- **Précision**: Comme il y a un nombre à peu près égal d'exemples pour chaque classe, la précision (nombre de bonnes prédictions sur nombre total d'exemples) est souvent utilisée comme métrique d'évaluation.
+
+Si vous avez un ensemble de données MNIST spécifique sur lequel vous souhaitez travailler, vous pouvez le télécharger afin que nous puissions explorer davantage.
